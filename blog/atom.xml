@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://teta42.github.io/Norchevsky/blog</id>
+    <title>Норчевский Blog</title>
+    <updated>2025-08-06T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://teta42.github.io/Norchevsky/blog"/>
+    <subtitle>Норчевский Blog</subtitle>
+    <icon>https://teta42.github.io/Norchevsky/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Начало Документации]]></title>
+        <id>https://teta42.github.io/Norchevsky/blog/first-blog-post</id>
+        <link href="https://teta42.github.io/Norchevsky/blog/first-blog-post"/>
+        <updated>2025-08-06T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Первые шаги в Документации]]></summary>
+        <content type="html"><![CDATA[<p>Первые шаги в Документации</p>
+<p>Сегодня первый день разработки! 🎉<br>
+<!-- -->Решил выбрать <strong>Docusaurus</strong> из-за:</p>
+<ul>
+<li>✨ Красоты</li>
+<li>🔧 Универсальности</li>
+</ul>
+<p>Ведь тут и блоги, и документация, и отдельные страницы!</p>]]></content>
+        <author>
+            <name>Nicolas Tetha</name>
+            <uri>https://t.me/Petaurka</uri>
+        </author>
+        <category label="story" term="story"/>
+    </entry>
+</feed>
