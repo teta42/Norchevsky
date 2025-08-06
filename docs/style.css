@@ -1,0 +1,14 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+
+  a {
+    color: #90caf9;
+  }
+
+  code {
+    background-color: #333;
+  }
+}
