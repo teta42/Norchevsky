@@ -1,77 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Fira+Code:wght@400;500&display=swap');
+
 :root {
-  --bg-light: #ffffff;
-  --text-light: #333333;
-  --link-light: #0066cc;
-  --code-bg-light: #f0f0f0;
-  --border-light: #dddddd;
-  --heading-light: #2c3e50;
-  
-  --bg-dark: #121212;
-  --text-dark: #e0e0e0;
-  --link-dark: #90caf9;
-  --code-bg-dark: #1e1e1e;
-  --border-dark: #444444;
-  --heading-dark: #bb86fc;
-  --accent-dark: #03dac6;
+  --bg-dark: #1a1a1a;
+  --text-dark: #e8e8e8;
+  --link-dark: #5d9bff;
+  --code-bg-dark: #252525;
+  --border-dark: #3a3a3a;
+  --heading-dark: #5d9bff;
+  --accent-dark: #4fd1c5;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--bg-dark);
-    color: var(--text-dark);
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-
-  a {
-    color: var(--link-dark);
-    transition: color 0.2s ease;
-  }
-
-  a:hover {
-    color: var(--accent-dark);
-  }
-
-  code {
-    background-color: var(--code-bg-dark);
-    color: #f8f8f2;
-  }
-
-  pre {
-    background-color: var(--code-bg-dark);
-    border-left: 3px solid var(--accent-dark);
-  }
-
-  h1, h2, h3 {
-    color: var(--heading-dark);
-    border-bottom-color: var(--border-dark);
-  }
-
-  table {
-    border-color: var(--border-dark);
-  }
-
-  th {
-    background-color: rgba(30, 30, 30, 0.5);
-  }
-
-  tr:nth-child(even) {
-    background-color: rgba(30, 30, 30, 0.2);
-  }
-}
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: inherit;
   line-height: 1.6;
   margin: 0 auto;
   max-width: 800px;
   padding: 20px;
-  color: var(--text-light);
-  background-color: var(--bg-light);
+  color: var(--text-dark);
+  background-color: var(--bg-dark);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 a {
-  color: var(--link-light);
+  color: var(--link-dark);
   text-decoration: none;
   transition: color 0.2s ease;
 }
@@ -82,23 +35,23 @@ a:hover {
 }
 
 code {
-  background-color: var(--code-bg-light);
+  background-color: var(--code-bg-dark);
   padding: 2px 4px;
   border-radius: 4px;
-  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-family: 'Fira Code', 'SFMono-Regular', Consolas, monospace;
 }
 
 pre {
-  background-color: var(--code-bg-light);
+  background-color: var(--code-bg-dark);
   padding: 15px;
   border-radius: 8px;
   overflow-x: auto;
-  border-left: 3px solid var(--link-light);
+  border-left: 3px solid var(--accent-dark);
 }
 
 h1, h2, h3 {
-  color: var(--heading-light);
-  border-bottom: 1px solid var(--border-light);
+  color: var(--heading-dark);
+  border-bottom: 1px solid var(--border-dark);
   padding-bottom: 5px;
   margin-top: 25px;
   margin-bottom: 15px;
@@ -108,34 +61,28 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin: 20px 0;
-  border: 1px solid var(--border-light);
+  border: 1px solid var(--border-dark);
 }
 
 th, td {
   padding: 12px 15px;
   text-align: left;
-  border-bottom: 1px solid var(--border-light);
+  border-bottom: 1px solid var(--border-dark);
 }
 
 th {
-  background-color: rgba(240, 240, 240, 0.5);
+  background-color: rgba(30, 30, 30, 0.5);
 }
 
 tr:nth-child(even) {
-  background-color: rgba(240, 240, 240, 0.2);
+  background-color: rgba(30, 30, 30, 0.2);
 }
 
 blockquote {
-  border-left: 4px solid var(--link-light);
+  border-left: 4px solid var(--accent-dark);
   padding-left: 15px;
   margin: 20px 0;
   color: #666;
   font-style: italic;
 }
 
-@media (prefers-color-scheme: dark) {
-  blockquote {
-    color: #aaa;
-    border-left-color: var(--accent-dark);
-  }
-}
