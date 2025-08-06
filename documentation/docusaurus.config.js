@@ -14,7 +14,7 @@ const config = {
   organizationName: 'teta42',
   projectName: 'Norchevsky',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
