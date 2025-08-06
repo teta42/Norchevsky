@@ -16,6 +16,8 @@ See [`README.md`](README.md)
 **Norchevsky** is a game neuro-engine designed to run long and coherent tabletop role-playing games using AI and software abstractions.  
 The main goal is to create a flexible, scalable system with deep contextual understanding of the world, characters, time, and space.
 
+[Github Pages](https://teta42.github.io/Norchevsky/)
+
 ---
 
 ## Discussions and Plans
