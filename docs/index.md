@@ -1,7 +1,4 @@
----
-layout: default
-title: Моя страница
----
+<link rel="stylesheet" href="style.css">
 
 # Добро пожаловать в проект Норчевский
 
