@@ -2,3 +2,7 @@ story:
   label: story
   permalink: /story
   description: I'm talking about something
+idea:
+  label: Idea
+  permalink: /idea
+  description: My ideas for the project

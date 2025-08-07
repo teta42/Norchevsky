@@ -4,7 +4,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Норчевский',
-  tagline: 'Интерактивная система для AI-приключений',
+  tagline: 'Нейро-игровой движок для AI-приключений',
   favicon: 'img/favicon.ico',
 
   url: 'https://teta42.github.io',

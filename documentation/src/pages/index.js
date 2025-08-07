@@ -18,9 +18,9 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/Norchevsky/docs/intro"
+            to="/Norchevsky/welcome"
           >
-            Документация Норчевский — старт
+            Приветственная страница Норчевского
           </Link>
         </div>
       </div>
@@ -32,7 +32,7 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Добро пожаловать на ${siteConfig.title}`}
+      title={`Добро пожаловать ${siteConfig.title}`}
       description="Интерактивная система для AI-приключений"
     >
       <HomepageHeader />
