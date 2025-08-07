@@ -5,6 +5,36 @@
     "description": "Норчевский Blog",
     "items": [
         {
+            "id": "https://teta42.github.io/Norchevsky/blog/added-welcome-page",
+            "content_html": "<p><a href=\"https://teta42.github.io/Norchevsky/welcome\">Первый</a> шаг в проекте,</p>",
+            "url": "https://teta42.github.io/Norchevsky/blog/added-welcome-page",
+            "title": "Добавил приветственную страницу",
+            "summary": "Первый шаг в проекте,",
+            "date_modified": "2025-08-07T00:00:00.000Z",
+            "author": {
+                "name": "Nicolas Tetha",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "story"
+            ]
+        },
+        {
+            "id": "https://teta42.github.io/Norchevsky/blog/the-idea-of-agent-stories",
+            "content_html": "<p>Как агенты придумывают будущее</p>\n<p>По идее, рабочие агенты при создании будущего должны учитывать <em>настоящее</em> и <em>прошлое</em>.</p>\n<p>А значит, они обязаны опираться на <strong>свои</strong> предыдущие итерации.<br>\n<!-- -->В этих итерациях хранится не только то, <strong>что</strong> они сделали (например, придумали событие и способ его достижения),<br>\n<!-- -->но и <strong>какие предпосылки</strong> они оставили для будущих шагов.</p>\n<p>Да, при генерации они могут учитывать и <strong>контекст всего мира</strong>.<br>\n<!-- -->Поэтому формула генерации будущего выглядит примерно так:</p>\n<div class=\"language-text codeBlockContainer_Ckt0 theme-code-block\" style=\"--prism-color:#393A34;--prism-background-color:#f6f8fa\"><div class=\"codeBlockContent_QJqH\"><pre tabindex=\"0\" class=\"prism-code language-text codeBlock_bY9V thin-scrollbar\" style=\"color:#393A34;background-color:#f6f8fa\"><code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#393A34\"><span class=\"token plain\">прошлое + настоящее + предыдущие итерации + контекст мира = будущие события</span><br></span></code></pre></div></div>\n<p><strong>Контекст мира</strong> — это всё, что агенты могут дополнительно ввести в игру сохранив лор и стиль,\nчтобы в истории появлялось что-то новое, а не только одно и то же по кругу.</p>",
+            "url": "https://teta42.github.io/Norchevsky/blog/the-idea-of-agent-stories",
+            "title": "Идея об агентных историях",
+            "summary": "Как агенты придумывают будущее",
+            "date_modified": "2025-08-07T00:00:00.000Z",
+            "author": {
+                "name": "Nicolas Tetha",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "Idea"
+            ]
+        },
+        {
             "id": "https://teta42.github.io/Norchevsky/blog/first-blog-post",
             "content_html": "<p>Первые шаги в Документации</p>\n<p>Сегодня первый день разработки! 🎉<br>\n<!-- -->Решил выбрать <strong>Docusaurus</strong> из-за:</p>\n<ul>\n<li>✨ Красоты</li>\n<li>🔧 Универсальности</li>\n</ul>\n<p>Ведь тут и блоги, и документация, и отдельные страницы!</p>",
             "url": "https://teta42.github.io/Norchevsky/blog/first-blog-post",

@@ -4,10 +4,37 @@
         <title>Норчевский Blog</title>
         <link>https://teta42.github.io/Norchevsky/blog</link>
         <description>Норчевский Blog</description>
-        <lastBuildDate>Wed, 06 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 07 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[Добавил приветственную страницу]]></title>
+            <link>https://teta42.github.io/Norchevsky/blog/added-welcome-page</link>
+            <guid>https://teta42.github.io/Norchevsky/blog/added-welcome-page</guid>
+            <pubDate>Thu, 07 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Первый шаг в проекте,]]></description>
+            <content:encoded><![CDATA[<p><a href="https://teta42.github.io/Norchevsky/welcome">Первый</a> шаг в проекте,</p>]]></content:encoded>
+            <category>story</category>
+        </item>
+        <item>
+            <title><![CDATA[Идея об агентных историях]]></title>
+            <link>https://teta42.github.io/Norchevsky/blog/the-idea-of-agent-stories</link>
+            <guid>https://teta42.github.io/Norchevsky/blog/the-idea-of-agent-stories</guid>
+            <pubDate>Thu, 07 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Как агенты придумывают будущее]]></description>
+            <content:encoded><![CDATA[<p>Как агенты придумывают будущее</p>
+<p>По идее, рабочие агенты при создании будущего должны учитывать <em>настоящее</em> и <em>прошлое</em>.</p>
+<p>А значит, они обязаны опираться на <strong>свои</strong> предыдущие итерации.<br>
+<!-- -->В этих итерациях хранится не только то, <strong>что</strong> они сделали (например, придумали событие и способ его достижения),<br>
+<!-- -->но и <strong>какие предпосылки</strong> они оставили для будущих шагов.</p>
+<p>Да, при генерации они могут учитывать и <strong>контекст всего мира</strong>.<br>
+<!-- -->Поэтому формула генерации будущего выглядит примерно так:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">прошлое + настоящее + предыдущие итерации + контекст мира = будущие события</span><br></span></code></pre></div></div>
+<p><strong>Контекст мира</strong> — это всё, что агенты могут дополнительно ввести в игру сохранив лор и стиль,
+чтобы в истории появлялось что-то новое, а не только одно и то же по кругу.</p>]]></content:encoded>
+            <category>Idea</category>
+        </item>
         <item>
             <title><![CDATA[Начало Документации]]></title>
             <link>https://teta42.github.io/Norchevsky/blog/first-blog-post</link>

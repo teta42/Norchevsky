@@ -2,11 +2,46 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://teta42.github.io/Norchevsky/blog</id>
     <title>Норчевский Blog</title>
-    <updated>2025-08-06T00:00:00.000Z</updated>
+    <updated>2025-08-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://teta42.github.io/Norchevsky/blog"/>
     <subtitle>Норчевский Blog</subtitle>
     <icon>https://teta42.github.io/Norchevsky/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Добавил приветственную страницу]]></title>
+        <id>https://teta42.github.io/Norchevsky/blog/added-welcome-page</id>
+        <link href="https://teta42.github.io/Norchevsky/blog/added-welcome-page"/>
+        <updated>2025-08-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Первый шаг в проекте,]]></summary>
+        <content type="html"><![CDATA[<p><a href="https://teta42.github.io/Norchevsky/welcome">Первый</a> шаг в проекте,</p>]]></content>
+        <author>
+            <name>Nicolas Tetha</name>
+            <uri>https://t.me/Petaurka</uri>
+        </author>
+        <category label="story" term="story"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Идея об агентных историях]]></title>
+        <id>https://teta42.github.io/Norchevsky/blog/the-idea-of-agent-stories</id>
+        <link href="https://teta42.github.io/Norchevsky/blog/the-idea-of-agent-stories"/>
+        <updated>2025-08-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Как агенты придумывают будущее]]></summary>
+        <content type="html"><![CDATA[<p>Как агенты придумывают будущее</p>
+<p>По идее, рабочие агенты при создании будущего должны учитывать <em>настоящее</em> и <em>прошлое</em>.</p>
+<p>А значит, они обязаны опираться на <strong>свои</strong> предыдущие итерации.<br>
+<!-- -->В этих итерациях хранится не только то, <strong>что</strong> они сделали (например, придумали событие и способ его достижения),<br>
+<!-- -->но и <strong>какие предпосылки</strong> они оставили для будущих шагов.</p>
+<p>Да, при генерации они могут учитывать и <strong>контекст всего мира</strong>.<br>
+<!-- -->Поэтому формула генерации будущего выглядит примерно так:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">прошлое + настоящее + предыдущие итерации + контекст мира = будущие события</span><br></span></code></pre></div></div>
+<p><strong>Контекст мира</strong> — это всё, что агенты могут дополнительно ввести в игру сохранив лор и стиль,
+чтобы в истории появлялось что-то новое, а не только одно и то же по кругу.</p>]]></content>
+        <author>
+            <name>Nicolas Tetha</name>
+            <uri>https://t.me/Petaurka</uri>
+        </author>
+        <category label="Idea" term="Idea"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Начало Документации]]></title>
         <id>https://teta42.github.io/Norchevsky/blog/first-blog-post</id>
