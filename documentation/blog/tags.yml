@@ -6,3 +6,7 @@ idea:
   label: Idea
   permalink: /idea
   description: My ideas for the project
+think:
+  label: Think
+  permalink: /think
+  description: My thoughts

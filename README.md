@@ -25,9 +25,9 @@ See [`README.en.md`](README.en.md)
 Для обсуждения проекта и предложений используйте раздел [Discussions](https://github.com/<твое-имя-пользователя>/norchevsky/discussions) на GitHub.  
 Там есть отдельные темы для:
 
-- [Предложения](https://github.com/teta42/Norchevsky/discussions/categories/ideas)  
-- [Улучшения](https://github.com/teta42/Norchevsky/discussions/categories/enhancements)  
-- [Обратная связь](https://github.com/teta42/Norchevsky/discussions/categories/general)  
+- [Предложения](https://github.com/teta42/Norchevsky/discussions/categories/ideas)
+- [Улучшения](https://github.com/teta42/Norchevsky/discussions/categories/enhancements)
+- [Обратная связь](https://github.com/teta42/Norchevsky/discussions/categories/general)
 
 ## Вклад в проект
 

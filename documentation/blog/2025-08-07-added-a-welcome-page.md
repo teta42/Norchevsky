@@ -5,4 +5,4 @@ authors: [Nicolas]
 tags: [story]
 ---
 
-[Первый](/Norchevsky/welcome) шаг в проекте, 
+[Первый](/Norchevsky/welcome) шаг в проекте
