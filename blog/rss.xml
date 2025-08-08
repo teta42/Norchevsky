@@ -4,10 +4,20 @@
         <title>Норчевский Blog</title>
         <link>https://teta42.github.io/Norchevsky/blog</link>
         <description>Норчевский Blog</description>
-        <lastBuildDate>Fri, 08 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 09 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[Провал в локализации 😞]]></title>
+            <link>https://teta42.github.io/Norchevsky/blog/failure-in-localization</link>
+            <guid>https://teta42.github.io/Norchevsky/blog/failure-in-localization</guid>
+            <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Я пытался, но у меня не получилось создать локализацию. 😓]]></description>
+            <content:encoded><![CDATA[<p>Я пытался, но у меня не получилось создать локализацию. 😓</p>
+<p>Весь этот день я потратил на то, чтобы добавить перевод на английский, но что бы я ни делал и как бы я ни старался - у меня ничего не вышло. 😩</p>]]></content:encoded>
+            <category>story</category>
+        </item>
         <item>
             <title><![CDATA[О крючках]]></title>
             <link>https://teta42.github.io/Norchevsky/blog/hooks-and-paths</link>
