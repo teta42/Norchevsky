@@ -8,6 +8,19 @@
     <subtitle>Norchevsky Blog</subtitle>
     <icon>https://teta42.github.io/Norchevsky/en/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Added a scheme for Norchevsky]]></title>
+        <id>https://teta42.github.io/Norchevsky/en/blog/added-norchevsky-scheme</id>
+        <link href="https://teta42.github.io/Norchevsky/en/blog/added-norchevsky-scheme"/>
+        <updated>2025-08-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Added the promised scheme of Norchevsky's work to the welcome page.]]></summary>
+        <content type="html"><![CDATA[<p>Added the promised scheme of Norchevsky's work to the welcome page.</p>]]></content>
+        <author>
+            <name>Nicolas Tetha</name>
+            <uri>https://t.me/Petaurka</uri>
+        </author>
+        <category label="Story" term="Story"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Failure in Localization 😞]]></title>
         <id>https://teta42.github.io/Norchevsky/en/blog/failure-in-localization</id>
         <link href="https://teta42.github.io/Norchevsky/en/blog/failure-in-localization"/>

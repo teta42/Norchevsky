@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[145],{5284:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/Norchevsky/blog","page":1,"postsPerPage":7,"totalPages":1,"totalCount":7,"blogDescription":"\u0411\u043b\u043e\u0433","blogTitle":"\u0411\u043b\u043e\u0433"}}')}}]);

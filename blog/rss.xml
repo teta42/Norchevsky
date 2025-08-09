@@ -9,6 +9,15 @@
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
         <item>
+            <title><![CDATA[Добавил схему для Норчевского]]></title>
+            <link>https://teta42.github.io/Norchevsky/blog/added-norchevsky-scheme</link>
+            <guid>https://teta42.github.io/Norchevsky/blog/added-norchevsky-scheme</guid>
+            <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Добавил в приветственную страницу обещанную схему работы Норчевского.]]></description>
+            <content:encoded><![CDATA[<p>Добавил в приветственную страницу обещанную схему работы Норчевского.</p>]]></content:encoded>
+            <category>История</category>
+        </item>
+        <item>
             <title><![CDATA[Провал в локализации 😞]]></title>
             <link>https://teta42.github.io/Norchevsky/blog/failure-in-localization</link>
             <guid>https://teta42.github.io/Norchevsky/blog/failure-in-localization</guid>

@@ -5,6 +5,21 @@
     "description": "Norchevsky Blog",
     "items": [
         {
+            "id": "https://teta42.github.io/Norchevsky/en/blog/added-norchevsky-scheme",
+            "content_html": "<p>Added the promised scheme of Norchevsky's work to the welcome page.</p>",
+            "url": "https://teta42.github.io/Norchevsky/en/blog/added-norchevsky-scheme",
+            "title": "Added a scheme for Norchevsky",
+            "summary": "Added the promised scheme of Norchevsky's work to the welcome page.",
+            "date_modified": "2025-08-09T00:00:00.000Z",
+            "author": {
+                "name": "Nicolas Tetha",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "Story"
+            ]
+        },
+        {
             "id": "https://teta42.github.io/Norchevsky/en/blog/failure-in-localization",
             "content_html": "<p>I tried, but I couldn't get the localization to work. 😓</p>\n<p>I spent the whole day trying to add an English translation, but no matter what I did or how hard I tried - nothing worked. 😩</p>",
             "url": "https://teta42.github.io/Norchevsky/en/blog/failure-in-localization",

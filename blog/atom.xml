@@ -8,6 +8,19 @@
     <subtitle>Norchevsky Blog</subtitle>
     <icon>https://teta42.github.io/Norchevsky/img/favicon.ico</icon>
     <entry>
+        <title type="html"><![CDATA[Добавил схему для Норчевского]]></title>
+        <id>https://teta42.github.io/Norchevsky/blog/added-norchevsky-scheme</id>
+        <link href="https://teta42.github.io/Norchevsky/blog/added-norchevsky-scheme"/>
+        <updated>2025-08-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Добавил в приветственную страницу обещанную схему работы Норчевского.]]></summary>
+        <content type="html"><![CDATA[<p>Добавил в приветственную страницу обещанную схему работы Норчевского.</p>]]></content>
+        <author>
+            <name>Николай Тета</name>
+            <uri>https://t.me/Petaurka</uri>
+        </author>
+        <category label="История" term="История"/>
+    </entry>
+    <entry>
         <title type="html"><![CDATA[Провал в локализации 😞]]></title>
         <id>https://teta42.github.io/Norchevsky/blog/failure-in-localization</id>
         <link href="https://teta42.github.io/Norchevsky/blog/failure-in-localization"/>
