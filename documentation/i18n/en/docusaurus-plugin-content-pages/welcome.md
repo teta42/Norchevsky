@@ -79,21 +79,10 @@ where you are the chief architect, and Norchevsky is your best assistant.
 
 ## Project Architecture
 
-:::caution Under Development
-This section is temporarily incomplete - a **mind map** of the project architecture and a link to detailed technical documentation will appear here soon.
-:::
+![Norchevsky's scheme](./assets/scheme_norchevsky_en.png)
 
-:::info General Plans
-- **Flexible modular structure** - the project is divided into independent components: memory, agents, database, generation, and visualization.
-- **File-based graph database** - the entire world is described through Markdown files linked logically and semantically.
-- **Agent system** - AI components with different roles: historian, event generator, chronicler, validator, etc.
-- **Contextual memory** - only necessary data is loaded when needed, **like** in RAG systems.
-- **World map and positioning** - spatial/temporal logic of events, characters and objects.
-- **And much more**
-:::
-
-:::tip Not Ready Yet
-While this section is in development, you can check out [blog posts](/blog) discussing ideas and thoughts.
+:::tip Yes, the diagram is approximate
+Unfortunately, it will be impossible to describe everything in one diagram, so I will create a bunch of smaller diagrams.
 :::
 
 ## Background
