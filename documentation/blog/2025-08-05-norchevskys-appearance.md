@@ -1,5 +1,5 @@
 ---
-slug: Norchevsky's-appearance
+slug: norchevskys-appearance
 title: Внешний вид норчевского
 authors: [Nicolas]
 tags: [think]
@@ -17,6 +17,6 @@ tags: [think]
 
 Длинные острые пальцы.
 
-Сам он добрый, и муху не обидит.
+Сам он добрый, и мухи не обидит.
 
 ---

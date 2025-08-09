@@ -1,5 +1,5 @@
 ---
-slug: Norchevsky's-appearance
+slug: norchevskys-appearance
 title: Norchevsky's Appearance
 authors: [Nicolas]
 tags: [think]
