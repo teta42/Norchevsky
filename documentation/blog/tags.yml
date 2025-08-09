@@ -1,12 +1,12 @@
 story:
-  label: story
+  label: История
   permalink: /story
-  description: I'm talking about something
+  description: Рассказы о событиях
 idea:
-  label: Idea
+  label: Идея
   permalink: /idea
-  description: My ideas for the project
+  description: Идеи для проекта
 think:
-  label: Think
+  label: Размышления
   permalink: /think
-  description: My thoughts
+  description: Мои мысли и размышления

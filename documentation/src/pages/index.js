@@ -1,6 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
+import Translate from '@docusaurus/Translate';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
@@ -18,9 +19,11 @@ function HomepageHeader() {
         <div className={styles.buttons}>
           <Link
             className="button button--secondary button--lg"
-            to="/Norchevsky/welcome"
+            to="/welcome"
           >
-            Приветственная страница Норчевского
+            <Translate id="homepage.welcomeButton">
+              Norchevsky Welcome Page
+            </Translate>
           </Link>
         </div>
       </div>
@@ -32,8 +35,8 @@ export default function Home() {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Добро пожаловать ${siteConfig.title}`}
-      description="Интерактивная система для AI-приключений"
+      title={siteConfig.title}
+      description={siteConfig.tagline}
     >
       <HomepageHeader />
       <main>

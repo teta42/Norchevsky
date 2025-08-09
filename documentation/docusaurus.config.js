@@ -3,8 +3,10 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Норчевский',
-  tagline: 'Нейро-игровой движок для AI-приключений',
+  // Title and tagline are defined in i18n JSON files for localization
+  // These values serve as fallback for English locale
+  title: 'Norchevsky',
+  tagline: 'Neuro-game engine for AI adventures',
   favicon: 'img/favicon.ico',
 
   url: 'https://teta42.github.io',
@@ -19,7 +21,17 @@ const config = {
 
   i18n: {
     defaultLocale: 'ru',
-    locales: ['ru'],
+    locales: ['ru', 'en'],
+    localeConfigs: {
+      ru: {
+        htmlLang: 'ru',
+        label: 'Русский',
+      },
+      en: {
+        htmlLang: 'en',
+        label: 'English',
+      },
+    },
   },
 
   presets: [
@@ -40,7 +52,7 @@ const config = {
           editUrl: 'https://github.com/teta42/Norchevsky/edit/main/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+          onUntruncatedBlogPosts: 'ignore',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -53,7 +65,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Норчевский',
+        // Title is now defined in i18n JSON files
         logo: {
           alt: 'Логотип Норчевского',
           src: 'img/logo.svg',
@@ -62,6 +74,10 @@ const config = {
           { to: '/docs/intro', label: 'Документация', position: 'left' },
           { to: '/blog', label: 'Блог', position: 'left' },
           { href: 'https://github.com/teta42/Norchevsky', label: 'GitHub', position: 'right' },
+          {
+            type: 'localeDropdown',
+            position: 'right',
+          },
         ],
       },
       footer: {

@@ -1,0 +1,12 @@
+story:
+  label: Story
+  permalink: /story
+  description: Talking about something
+idea:
+  label: Idea
+  permalink: /idea
+  description: Ideas for the project
+think:
+  label: Think
+  permalink: /think
+  description: Thoughts and reflections
