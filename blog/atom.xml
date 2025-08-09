@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://teta42.github.io/Norchevsky/blog</id>
-    <title>Норчевский Blog</title>
+    <title>Norchevsky Blog</title>
     <updated>2025-08-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://teta42.github.io/Norchevsky/blog"/>
-    <subtitle>Норчевский Blog</subtitle>
+    <subtitle>Norchevsky Blog</subtitle>
     <icon>https://teta42.github.io/Norchevsky/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Провал в локализации 😞]]></title>
@@ -16,10 +16,10 @@
         <content type="html"><![CDATA[<p>Я пытался, но у меня не получилось создать локализацию. 😓</p>
 <p>Весь этот день я потратил на то, чтобы добавить перевод на английский, но что бы я ни делал и как бы я ни старался - у меня ничего не вышло. 😩</p>]]></content>
         <author>
-            <name>Nicolas Tetha</name>
+            <name>Николай Тета</name>
             <uri>https://t.me/Petaurka</uri>
         </author>
-        <category label="story" term="story"/>
+        <category label="История" term="История"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[О крючках]]></title>
@@ -36,11 +36,11 @@
 <hr>
 <p>А в общем получается так, что единственная возможность работы с крючками — это не использовать их и добавлять, ведь у нас могут открыться новые сюжетные тропы, которые создадут новые события, которые сделают больше крючков.</p>]]></content>
         <author>
-            <name>Nicolas Tetha</name>
+            <name>Николай Тета</name>
             <uri>https://t.me/Petaurka</uri>
         </author>
-        <category label="Idea" term="Idea"/>
-        <category label="Think" term="Think"/>
+        <category label="Идея" term="Идея"/>
+        <category label="Размышления" term="Размышления"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Добавил приветственную страницу]]></title>
@@ -50,10 +50,10 @@
         <summary type="html"><![CDATA[Первый шаг в проекте]]></summary>
         <content type="html"><![CDATA[<p><a href="https://teta42.github.io/Norchevsky/welcome">Первый</a> шаг в проекте</p>]]></content>
         <author>
-            <name>Nicolas Tetha</name>
+            <name>Николай Тета</name>
             <uri>https://t.me/Petaurka</uri>
         </author>
-        <category label="story" term="story"/>
+        <category label="История" term="История"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Идея об агентных историях]]></title>
@@ -72,10 +72,10 @@
 <p><strong>Контекст мира</strong> — это всё, что агенты могут дополнительно ввести в игру сохранив лор и стиль,
 чтобы в истории появлялось что-то новое, а не только одно и то же по кругу.</p>]]></content>
         <author>
-            <name>Nicolas Tetha</name>
+            <name>Николай Тета</name>
             <uri>https://t.me/Petaurka</uri>
         </author>
-        <category label="Idea" term="Idea"/>
+        <category label="Идея" term="Идея"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Начало Документации]]></title>
@@ -92,10 +92,10 @@
 </ul>
 <p>Ведь тут и блоги, и документация, и отдельные страницы!</p>]]></content>
         <author>
-            <name>Nicolas Tetha</name>
+            <name>Николай Тета</name>
             <uri>https://t.me/Petaurka</uri>
         </author>
-        <category label="story" term="story"/>
+        <category label="История" term="История"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Внешний вид норчевского]]></title>
@@ -111,9 +111,9 @@
 <p>Сам он добрый, и муху не обидит.</p>
 <hr>]]></content>
         <author>
-            <name>Nicolas Tetha</name>
+            <name>Николай Тета</name>
             <uri>https://t.me/Petaurka</uri>
         </author>
-        <category label="Think" term="Think"/>
+        <category label="Размышления" term="Размышления"/>
     </entry>
 </feed>

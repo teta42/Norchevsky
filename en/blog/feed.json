@@ -1,0 +1,99 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Norchevsky Blog",
+    "home_page_url": "https://teta42.github.io/Norchevsky/en/blog",
+    "description": "Norchevsky Blog",
+    "items": [
+        {
+            "id": "https://teta42.github.io/Norchevsky/en/blog/failure-in-localization",
+            "content_html": "<p>I tried, but I couldn't get the localization to work. 😓</p>\n<p>I spent the whole day trying to add an English translation, but no matter what I did or how hard I tried - nothing worked. 😩</p>",
+            "url": "https://teta42.github.io/Norchevsky/en/blog/failure-in-localization",
+            "title": "Failure in Localization 😞",
+            "summary": "I tried, but I couldn't get the localization to work. 😓",
+            "date_modified": "2025-08-09T00:00:00.000Z",
+            "author": {
+                "name": "Nicolas Tetha",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "Story"
+            ]
+        },
+        {
+            "id": "https://teta42.github.io/Norchevsky/en/blog/hooks-and-paths",
+            "content_html": "<p>Hooks for Agent Story Generation</p>\n<div class=\"theme-admonition theme-admonition-info admonition_xJq3 alert alert--info\"><div class=\"admonitionHeading_Gvgb\"><span class=\"admonitionIcon_Rf37\"><svg viewBox=\"0 0 14 16\"><path fill-rule=\"evenodd\" d=\"M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z\"></path></svg></span>According to the idea, plot hooks are eternal</div><div class=\"admonitionContent_BuS1\"><p>Because they have connections at different levels:</p><ul>\n<li>Primary - the object itself, which has plot possibilities</li>\n<li>Secondary - memories/traces of the object</li>\n</ul></div></div>\n<p>And if so, it turns out that even if an object is lost, it only means that <em>the system can introduce a plot line</em> to find the object, which is good for the game.</p>\n<hr>\n<p>Overall, it turns out that the only way to work with hooks is not to use them and add them, because new plot tropes may open up for us, which will create new events that will make more hooks.</p>",
+            "url": "https://teta42.github.io/Norchevsky/en/blog/hooks-and-paths",
+            "title": "About Hooks",
+            "summary": "Hooks for Agent Story Generation",
+            "date_modified": "2025-08-08T00:00:00.000Z",
+            "author": {
+                "name": "Nicolas Tetha",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "Idea",
+                "Think"
+            ]
+        },
+        {
+            "id": "https://teta42.github.io/Norchevsky/en/blog/added-welcome-page",
+            "content_html": "<p><a href=\"https://teta42.github.io/Norchevsky/en/Norchevsky/welcome\">First</a> step in the project</p>",
+            "url": "https://teta42.github.io/Norchevsky/en/blog/added-welcome-page",
+            "title": "Added a Welcome Page",
+            "summary": "First step in the project",
+            "date_modified": "2025-08-07T00:00:00.000Z",
+            "author": {
+                "name": "Nicolas Tetha",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "Story"
+            ]
+        },
+        {
+            "id": "https://teta42.github.io/Norchevsky/en/blog/the-idea-of-agent-stories",
+            "content_html": "<p>How Agents Invent the Future</p>\n<p>According to the idea, worker agents when creating the future must take into account the <em>present</em> and the <em>past</em>.</p>\n<p>This means they must rely on <strong>their</strong> previous iterations.<br>\n<!-- -->These iterations store not only <strong>what</strong> they did (for example, came up with an event and a way to achieve it),<br>\n<!-- -->but also <strong>what prerequisites</strong> they left for future steps.</p>\n<p>Yes, during generation they can also consider the <strong>context of the whole world</strong>.<br>\n<!-- -->Therefore, the formula for generating the future looks something like this:</p>\n<div class=\"language-text codeBlockContainer_Ckt0 theme-code-block\" style=\"--prism-color:#393A34;--prism-background-color:#f6f8fa\"><div class=\"codeBlockContent_QJqH\"><pre tabindex=\"0\" class=\"prism-code language-text codeBlock_bY9V thin-scrollbar\" style=\"color:#393A34;background-color:#f6f8fa\"><code class=\"codeBlockLines_e6Vv\"><span class=\"token-line\" style=\"color:#393A34\"><span class=\"token plain\">past + present + previous iterations + world context = future events</span><br></span></code></pre></div></div>\n<p><strong>World context</strong> is everything that agents can additionally introduce into the game while preserving the lore and style,\nso that something new appears in the story, not just the same thing in a loop.</p>",
+            "url": "https://teta42.github.io/Norchevsky/en/blog/the-idea-of-agent-stories",
+            "title": "The Idea of Agent Stories",
+            "summary": "How Agents Invent the Future",
+            "date_modified": "2025-08-07T00:00:00.000Z",
+            "author": {
+                "name": "Nicolas Tetha",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "Idea"
+            ]
+        },
+        {
+            "id": "https://teta42.github.io/Norchevsky/en/blog/first-blog-post",
+            "content_html": "<p>First Steps in Documentation</p>\n<p>Today is the first day of development! 🎉<br>\n<!-- -->I chose <strong>Docusaurus</strong> because of:</p>\n<ul>\n<li>✨ Beauty</li>\n<li>🔧 Versatility</li>\n</ul>\n<p>It has blogs, documentation, and separate pages!</p>",
+            "url": "https://teta42.github.io/Norchevsky/en/blog/first-blog-post",
+            "title": "Documentation Begins",
+            "summary": "First Steps in Documentation",
+            "date_modified": "2025-08-06T00:00:00.000Z",
+            "author": {
+                "name": "Nicolas Tetha",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "Story"
+            ]
+        },
+        {
+            "id": "https://teta42.github.io/Norchevsky/en/blog/Norchevsky's-appearance",
+            "content_html": "<p>The Chthonic Appearance of Norchevsky</p>\n<p>His true appearance is that of a tall, slender humanoid with a wide mouth stretching from ear to ear filled with sharp teeth, and a single large eye in the middle with a pupil like Dio Brando from JoJo's Bizarre Adventure.</p>\n<p>He is pitch black, like tar, and his body is covered in some kind of tattered cloth. He is entirely black except for the whites of his eye and his gleaming white teeth.</p>\n<p>On his back, there's a not very tall but very sharp hump at shoulder blade level.</p>\n<p>Long, sharp fingers.</p>\n<p>He himself is kind-hearted and wouldn't hurt a fly.</p>\n<hr>",
+            "url": "https://teta42.github.io/Norchevsky/en/blog/Norchevsky's-appearance",
+            "title": "Norchevsky's Appearance",
+            "summary": "The Chthonic Appearance of Norchevsky",
+            "date_modified": "2025-08-05T00:00:00.000Z",
+            "author": {
+                "name": "Nicolas Tetha",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "Think"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Norchevsky Blog</title>
+        <link>https://teta42.github.io/Norchevsky/en/blog</link>
+        <description>Norchevsky Blog</description>
+        <lastBuildDate>Sat, 09 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Failure in Localization 😞]]></title>
+            <link>https://teta42.github.io/Norchevsky/en/blog/failure-in-localization</link>
+            <guid>https://teta42.github.io/Norchevsky/en/blog/failure-in-localization</guid>
+            <pubDate>Sat, 09 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[I tried, but I couldn't get the localization to work. 😓]]></description>
+            <content:encoded><![CDATA[<p>I tried, but I couldn't get the localization to work. 😓</p>
+<p>I spent the whole day trying to add an English translation, but no matter what I did or how hard I tried - nothing worked. 😩</p>]]></content:encoded>
+            <category>Story</category>
+        </item>
+        <item>
+            <title><![CDATA[About Hooks]]></title>
+            <link>https://teta42.github.io/Norchevsky/en/blog/hooks-and-paths</link>
+            <guid>https://teta42.github.io/Norchevsky/en/blog/hooks-and-paths</guid>
+            <pubDate>Fri, 08 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hooks for Agent Story Generation]]></description>
+            <content:encoded><![CDATA[<p>Hooks for Agent Story Generation</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>According to the idea, plot hooks are eternal</div><div class="admonitionContent_BuS1"><p>Because they have connections at different levels:</p><ul>
+<li>Primary - the object itself, which has plot possibilities</li>
+<li>Secondary - memories/traces of the object</li>
+</ul></div></div>
+<p>And if so, it turns out that even if an object is lost, it only means that <em>the system can introduce a plot line</em> to find the object, which is good for the game.</p>
+<hr>
+<p>Overall, it turns out that the only way to work with hooks is not to use them and add them, because new plot tropes may open up for us, which will create new events that will make more hooks.</p>]]></content:encoded>
+            <category>Idea</category>
+            <category>Think</category>
+        </item>
+        <item>
+            <title><![CDATA[Added a Welcome Page]]></title>
+            <link>https://teta42.github.io/Norchevsky/en/blog/added-welcome-page</link>
+            <guid>https://teta42.github.io/Norchevsky/en/blog/added-welcome-page</guid>
+            <pubDate>Thu, 07 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[First step in the project]]></description>
+            <content:encoded><![CDATA[<p><a href="https://teta42.github.io/Norchevsky/en/Norchevsky/welcome">First</a> step in the project</p>]]></content:encoded>
+            <category>Story</category>
+        </item>
+        <item>
+            <title><![CDATA[The Idea of Agent Stories]]></title>
+            <link>https://teta42.github.io/Norchevsky/en/blog/the-idea-of-agent-stories</link>
+            <guid>https://teta42.github.io/Norchevsky/en/blog/the-idea-of-agent-stories</guid>
+            <pubDate>Thu, 07 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[How Agents Invent the Future]]></description>
+            <content:encoded><![CDATA[<p>How Agents Invent the Future</p>
+<p>According to the idea, worker agents when creating the future must take into account the <em>present</em> and the <em>past</em>.</p>
+<p>This means they must rely on <strong>their</strong> previous iterations.<br>
+<!-- -->These iterations store not only <strong>what</strong> they did (for example, came up with an event and a way to achieve it),<br>
+<!-- -->but also <strong>what prerequisites</strong> they left for future steps.</p>
+<p>Yes, during generation they can also consider the <strong>context of the whole world</strong>.<br>
+<!-- -->Therefore, the formula for generating the future looks something like this:</p>
+<div class="language-text codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">past + present + previous iterations + world context = future events</span><br></span></code></pre></div></div>
+<p><strong>World context</strong> is everything that agents can additionally introduce into the game while preserving the lore and style,
+so that something new appears in the story, not just the same thing in a loop.</p>]]></content:encoded>
+            <category>Idea</category>
+        </item>
+        <item>
+            <title><![CDATA[Documentation Begins]]></title>
+            <link>https://teta42.github.io/Norchevsky/en/blog/first-blog-post</link>
+            <guid>https://teta42.github.io/Norchevsky/en/blog/first-blog-post</guid>
+            <pubDate>Wed, 06 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[First Steps in Documentation]]></description>
+            <content:encoded><![CDATA[<p>First Steps in Documentation</p>
+<p>Today is the first day of development! 🎉<br>
+<!-- -->I chose <strong>Docusaurus</strong> because of:</p>
+<ul>
+<li>✨ Beauty</li>
+<li>🔧 Versatility</li>
+</ul>
+<p>It has blogs, documentation, and separate pages!</p>]]></content:encoded>
+            <category>Story</category>
+        </item>
+        <item>
+            <title><![CDATA[Norchevsky's Appearance]]></title>
+            <link>https://teta42.github.io/Norchevsky/en/blog/Norchevsky's-appearance</link>
+            <guid>https://teta42.github.io/Norchevsky/en/blog/Norchevsky's-appearance</guid>
+            <pubDate>Tue, 05 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Chthonic Appearance of Norchevsky]]></description>
+            <content:encoded><![CDATA[<p>The Chthonic Appearance of Norchevsky</p>
+<p>His true appearance is that of a tall, slender humanoid with a wide mouth stretching from ear to ear filled with sharp teeth, and a single large eye in the middle with a pupil like Dio Brando from JoJo's Bizarre Adventure.</p>
+<p>He is pitch black, like tar, and his body is covered in some kind of tattered cloth. He is entirely black except for the whites of his eye and his gleaming white teeth.</p>
+<p>On his back, there's a not very tall but very sharp hump at shoulder blade level.</p>
+<p>Long, sharp fingers.</p>
+<p>He himself is kind-hearted and wouldn't hurt a fly.</p>
+<hr>]]></content:encoded>
+            <category>Think</category>
+        </item>
+    </channel>
+</rss>
