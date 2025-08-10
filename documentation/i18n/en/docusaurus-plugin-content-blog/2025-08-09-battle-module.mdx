@@ -1,0 +1,54 @@
+---
+slug: battle-module
+title: Battle Module
+authors: [Nicolas]
+tags: [idea]
+---
+
+I came up with a battle module for Norchevsky
+
+<!-- truncate -->
+
+:::note Key Features?
+- Positioning in space and time of all objects 
+_(characters, items, covers, etc.)_
+- Tracking and aggregation of all objects' state
+- Convenient access to tracking data
+- Conducting the battle itself
+:::
+
+## Battle Management Ideas
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="round dance" label="Round Dance" default>
+    There is one main _agent_ that programmatically calculates all possible decisions and, based on this data and orders from above, determines the behavior of battle participants.
+    :::info Pros
+    Good dynamics due to comprehensive non-player combat design
+    :::
+
+    :::danger Cons
+    - Hyper-factorial complexity
+    - Too many calculations required
+    - Risk of the round dance agent being overwhelmed by data
+    :::
+  </TabItem>
+  <TabItem value="swarm" label="Swarm">
+    Each battle participant has their own agent (and AI), their own memory, and is fully autonomous. The battle is conducted in turn-based mode.
+    :::info Pros
+    - Easier to implement due to turn-based system and local processing
+    - Can create more scenarios (e.g., when an agent fails to notice something)
+    :::
+
+    :::warning Cons
+    Slightly reduced dynamics, but since AI processes quickly, turns will be returned to the player promptly.
+    :::
+  </TabItem>
+  <TabItem value="hybrid" label="Hybrid">
+    A blend of both previous approaches, attempting to combine their strengths.
+    
+    Differs from the swarm by having a central coordinator that reminds agents of common goals, tactics, and other pre-agreed battle parameters.
+  </TabItem>
+</Tabs>
