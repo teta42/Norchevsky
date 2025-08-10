@@ -2,11 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://teta42.github.io/Norchevsky/en/blog</id>
     <title>Norchevsky Blog</title>
-    <updated>2025-08-09T00:00:00.000Z</updated>
+    <updated>2025-08-10T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://teta42.github.io/Norchevsky/en/blog"/>
     <subtitle>Norchevsky Blog</subtitle>
     <icon>https://teta42.github.io/Norchevsky/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Replacement of the main page]]></title>
+        <id>https://teta42.github.io/Norchevsky/en/blog/replacement-of-the-main-page</id>
+        <link href="https://teta42.github.io/Norchevsky/en/blog/replacement-of-the-main-page"/>
+        <updated>2025-08-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I changed the main page to the former one, simply because I didn't like the old main page]]></summary>
+        <content type="html"><![CDATA[<p>I changed the main page to the former one, simply because I didn't like the old main page</p>]]></content>
+        <author>
+            <name>Nicolas Tetha</name>
+            <uri>https://t.me/Petaurka</uri>
+        </author>
+        <category label="Story" term="Story"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Added a scheme for Norchevsky]]></title>
         <id>https://teta42.github.io/Norchevsky/en/blog/added-norchevsky-scheme</id>

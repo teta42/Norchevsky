@@ -4,10 +4,19 @@
         <title>Norchevsky Blog</title>
         <link>https://teta42.github.io/Norchevsky/blog</link>
         <description>Norchevsky Blog</description>
-        <lastBuildDate>Sat, 09 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[Замена главной страницы]]></title>
+            <link>https://teta42.github.io/Norchevsky/blog/replacement-of-the-main-page</link>
+            <guid>https://teta42.github.io/Norchevsky/blog/replacement-of-the-main-page</guid>
+            <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Я поменял главную страницу на бывшую преведственную, просто потому-что мне старая главная страница не нравилась]]></description>
+            <content:encoded><![CDATA[<p>Я поменял главную страницу на бывшую преведственную, просто потому-что мне старая главная страница не нравилась</p>]]></content:encoded>
+            <category>История</category>
+        </item>
         <item>
             <title><![CDATA[Добавил схему для Норчевского]]></title>
             <link>https://teta42.github.io/Norchevsky/blog/added-norchevsky-scheme</link>

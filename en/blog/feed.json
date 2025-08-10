@@ -5,6 +5,21 @@
     "description": "Norchevsky Blog",
     "items": [
         {
+            "id": "https://teta42.github.io/Norchevsky/en/blog/replacement-of-the-main-page",
+            "content_html": "<p>I changed the main page to the former one, simply because I didn't like the old main page</p>",
+            "url": "https://teta42.github.io/Norchevsky/en/blog/replacement-of-the-main-page",
+            "title": "Replacement of the main page",
+            "summary": "I changed the main page to the former one, simply because I didn't like the old main page",
+            "date_modified": "2025-08-10T00:00:00.000Z",
+            "author": {
+                "name": "Nicolas Tetha",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "Story"
+            ]
+        },
+        {
             "id": "https://teta42.github.io/Norchevsky/en/blog/added-norchevsky-scheme",
             "content_html": "<p>Added the promised scheme of Norchevsky's work to the welcome page.</p>",
             "url": "https://teta42.github.io/Norchevsky/en/blog/added-norchevsky-scheme",

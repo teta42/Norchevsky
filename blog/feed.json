@@ -5,6 +5,21 @@
     "description": "Norchevsky Blog",
     "items": [
         {
+            "id": "https://teta42.github.io/Norchevsky/blog/replacement-of-the-main-page",
+            "content_html": "<p>Я поменял главную страницу на бывшую преведственную, просто потому-что мне старая главная страница не нравилась</p>",
+            "url": "https://teta42.github.io/Norchevsky/blog/replacement-of-the-main-page",
+            "title": "Замена главной страницы",
+            "summary": "Я поменял главную страницу на бывшую преведственную, просто потому-что мне старая главная страница не нравилась",
+            "date_modified": "2025-08-10T00:00:00.000Z",
+            "author": {
+                "name": "Николай Тета",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "История"
+            ]
+        },
+        {
             "id": "https://teta42.github.io/Norchevsky/blog/added-norchevsky-scheme",
             "content_html": "<p>Добавил в приветственную страницу обещанную схему работы Норчевского.</p>",
             "url": "https://teta42.github.io/Norchevsky/blog/added-norchevsky-scheme",

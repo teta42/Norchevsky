@@ -4,10 +4,19 @@
         <title>Norchevsky Blog</title>
         <link>https://teta42.github.io/Norchevsky/en/blog</link>
         <description>Norchevsky Blog</description>
-        <lastBuildDate>Sat, 09 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 10 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Replacement of the main page]]></title>
+            <link>https://teta42.github.io/Norchevsky/en/blog/replacement-of-the-main-page</link>
+            <guid>https://teta42.github.io/Norchevsky/en/blog/replacement-of-the-main-page</guid>
+            <pubDate>Sun, 10 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[I changed the main page to the former one, simply because I didn't like the old main page]]></description>
+            <content:encoded><![CDATA[<p>I changed the main page to the former one, simply because I didn't like the old main page</p>]]></content:encoded>
+            <category>Story</category>
+        </item>
         <item>
             <title><![CDATA[Added a scheme for Norchevsky]]></title>
             <link>https://teta42.github.io/Norchevsky/en/blog/added-norchevsky-scheme</link>
