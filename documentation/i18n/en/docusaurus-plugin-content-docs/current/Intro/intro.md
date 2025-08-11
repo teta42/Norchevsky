@@ -3,4 +3,6 @@ id: intro
 title: Introduction
 ---
 
-Welcome to the **Norchevsky** project documentation!
+Welcome to the documentation of the **Norchevsky** project!
+
+You can familiarize yourself with the [project terminology](/glossary)
