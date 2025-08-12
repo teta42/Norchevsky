@@ -4,10 +4,34 @@
         <title>Norchevsky Blog</title>
         <link>https://teta42.github.io/Norchevsky/blog</link>
         <description>Norchevsky Blog</description>
-        <lastBuildDate>Sun, 10 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ru</language>
+        <item>
+            <title><![CDATA[О сложности проекта]]></title>
+            <link>https://teta42.github.io/Norchevsky/blog/about-the-complexity-of-the-project</link>
+            <guid>https://teta42.github.io/Norchevsky/blog/about-the-complexity-of-the-project</guid>
+            <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Думал я, значит, тут начать разрабатывать MVP, чуть копнул в эпизодическую память и... 😅]]></description>
+            <content:encoded><![CDATA[<p>Думал я, значит, тут начать разрабатывать MVP, чуть копнул в эпизодическую память и... 😅</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="проще-говоря">Проще Говоря<a href="https://teta42.github.io/Norchevsky/blog/about-the-complexity-of-the-project#%D0%BF%D1%80%D0%BE%D1%89%D0%B5-%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D1%8F" class="hash-link" aria-label="Прямая ссылка на Проще Говоря" title="Прямая ссылка на Проще Говоря">​</a></h2>
+<p>Я начал думать, какие компоненты добавить в MVP, и подумал об эпизодической памяти. Вроде, ничего тяжёлого: 🤔</p>
+<ul>
+<li>Встроить в конвейер проверки ответа БЯМ агента для напоминаний</li>
+<li>Завести маленькую базу для хранения эпизодов</li>
+<li>Да и вроде схема md файлов не тяжёлая</li>
+</ul>
+<p>А потом посыпались куча фундаментальных вопросов: 🤯</p>
+<ul>
+<li>Что такое эпизод?</li>
+<li>Как он начинается и заканчивается?</li>
+<li>Как будет работать <a href="https://teta42.github.io/Norchevsky/hooks-and-paths">система крючков</a>?</li>
+<li>И т.д.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="то-есть-проект-столь-тяжёлый-что-из-ниоткуда-возник-целый-новый-модуль-">То есть, проект столь тяжёлый, что из ниоткуда возник целый новый модуль 😲<a href="https://teta42.github.io/Norchevsky/blog/about-the-complexity-of-the-project#%D1%82%D0%BE-%D0%B5%D1%81%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D0%B5%D0%BA%D1%82-%D1%81%D1%82%D0%BE%D0%BB%D1%8C-%D1%82%D1%8F%D0%B6%D1%91%D0%BB%D1%8B%D0%B9-%D1%87%D1%82%D0%BE-%D0%B8%D0%B7-%D0%BD%D0%B8%D0%BE%D1%82%D0%BA%D1%83%D0%B4%D0%B0-%D0%B2%D0%BE%D0%B7%D0%BD%D0%B8%D0%BA-%D1%86%D0%B5%D0%BB%D1%8B%D0%B9-%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BC%D0%BE%D0%B4%D1%83%D0%BB%D1%8C-" class="hash-link" aria-label="Прямая ссылка на То есть, проект столь тяжёлый, что из ниоткуда возник целый новый модуль 😲" title="Прямая ссылка на То есть, проект столь тяжёлый, что из ниоткуда возник целый новый модуль 😲">​</a></h2>]]></content:encoded>
+            <category>История</category>
+        </item>
         <item>
             <title><![CDATA[Замена главной страницы]]></title>
             <link>https://teta42.github.io/Norchevsky/blog/replacement-of-the-main-page</link>

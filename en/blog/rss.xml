@@ -4,10 +4,34 @@
         <title>Norchevsky Blog</title>
         <link>https://teta42.github.io/Norchevsky/en/blog</link>
         <description>Norchevsky Blog</description>
-        <lastBuildDate>Sun, 10 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[About the Complexity of the Project]]></title>
+            <link>https://teta42.github.io/Norchevsky/en/blog/about-the-complexity-of-the-project</link>
+            <guid>https://teta42.github.io/Norchevsky/en/blog/about-the-complexity-of-the-project</guid>
+            <pubDate>Tue, 12 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[I was thinking about starting to develop an MVP, dug a little into the episode memory and... 😅]]></description>
+            <content:encoded><![CDATA[<p>I was thinking about starting to develop an MVP, dug a little into the episode memory and... 😅</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="simply-speaking-">Simply Speaking 🤔<a href="https://teta42.github.io/Norchevsky/en/blog/about-the-complexity-of-the-project#simply-speaking-" class="hash-link" aria-label="Direct link to Simply Speaking 🤔" title="Direct link to Simply Speaking 🤔">​</a></h2>
+<p>I started thinking about which components to add to the MVP, and thought about episodic memory. Seems like nothing heavy:</p>
+<ul>
+<li>Integrate a BYaM agent response verification pipeline for reminders</li>
+<li>Create a small database for storing episodes</li>
+<li>And the md file scheme doesn't seem heavy</li>
+</ul>
+<p>Then a bunch of fundamental questions poured in: 🤯</p>
+<ul>
+<li>What is an episode?</li>
+<li>How does it start and end?</li>
+<li>How will the <a href="https://teta42.github.io/Norchevsky/en/hooks-and-paths">hooks system</a> work?</li>
+<li>And so on.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="so-the-project-is-so-heavy-that-a-whole-new-module-arose-from-nowhere-">So the project is so heavy that a whole new module arose from nowhere 😲<a href="https://teta42.github.io/Norchevsky/en/blog/about-the-complexity-of-the-project#so-the-project-is-so-heavy-that-a-whole-new-module-arose-from-nowhere-" class="hash-link" aria-label="Direct link to So the project is so heavy that a whole new module arose from nowhere 😲" title="Direct link to So the project is so heavy that a whole new module arose from nowhere 😲">​</a></h2>]]></content:encoded>
+            <category>Story</category>
+        </item>
         <item>
             <title><![CDATA[Replacement of the main page]]></title>
             <link>https://teta42.github.io/Norchevsky/en/blog/replacement-of-the-main-page</link>

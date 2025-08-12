@@ -5,6 +5,21 @@
     "description": "Norchevsky Blog",
     "items": [
         {
+            "id": "https://teta42.github.io/Norchevsky/en/blog/about-the-complexity-of-the-project",
+            "content_html": "<p>I was thinking about starting to develop an MVP, dug a little into the episode memory and... 😅</p>\n<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"simply-speaking-\">Simply Speaking 🤔<a href=\"https://teta42.github.io/Norchevsky/en/blog/about-the-complexity-of-the-project#simply-speaking-\" class=\"hash-link\" aria-label=\"Direct link to Simply Speaking 🤔\" title=\"Direct link to Simply Speaking 🤔\">​</a></h2>\n<p>I started thinking about which components to add to the MVP, and thought about episodic memory. Seems like nothing heavy:</p>\n<ul>\n<li>Integrate a BYaM agent response verification pipeline for reminders</li>\n<li>Create a small database for storing episodes</li>\n<li>And the md file scheme doesn't seem heavy</li>\n</ul>\n<p>Then a bunch of fundamental questions poured in: 🤯</p>\n<ul>\n<li>What is an episode?</li>\n<li>How does it start and end?</li>\n<li>How will the <a href=\"https://teta42.github.io/Norchevsky/en/hooks-and-paths\">hooks system</a> work?</li>\n<li>And so on.</li>\n</ul>\n<h2 class=\"anchor anchorWithStickyNavbar_LWe7\" id=\"so-the-project-is-so-heavy-that-a-whole-new-module-arose-from-nowhere-\">So the project is so heavy that a whole new module arose from nowhere 😲<a href=\"https://teta42.github.io/Norchevsky/en/blog/about-the-complexity-of-the-project#so-the-project-is-so-heavy-that-a-whole-new-module-arose-from-nowhere-\" class=\"hash-link\" aria-label=\"Direct link to So the project is so heavy that a whole new module arose from nowhere 😲\" title=\"Direct link to So the project is so heavy that a whole new module arose from nowhere 😲\">​</a></h2>",
+            "url": "https://teta42.github.io/Norchevsky/en/blog/about-the-complexity-of-the-project",
+            "title": "About the Complexity of the Project",
+            "summary": "I was thinking about starting to develop an MVP, dug a little into the episode memory and... 😅",
+            "date_modified": "2025-08-12T00:00:00.000Z",
+            "author": {
+                "name": "Nicolas Tetha",
+                "url": "https://t.me/Petaurka"
+            },
+            "tags": [
+                "Story"
+            ]
+        },
+        {
             "id": "https://teta42.github.io/Norchevsky/en/blog/replacement-of-the-main-page",
             "content_html": "<p>I changed the main page to the former one, simply because I didn't like the old main page</p>",
             "url": "https://teta42.github.io/Norchevsky/en/blog/replacement-of-the-main-page",
