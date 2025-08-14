@@ -1,0 +1,110 @@
+---
+slug: about-my-dsl
+title: About My Query Language 💬
+authors: [Nicolas]
+tags: [story]
+---
+
+I've rethought the idea of [my language](/blog/MDQL) several times — and it has changed radically! 🔄
+
+<!-- truncate -->
+
+## History of My DSL: From MDQL to MQL
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="similar" label="Similar to GraphQL" default>
+    This version is described in [this blog post](/blog/MDQL) and has similarities to GraphQL 👥
+  </TabItem>
+  <TabItem value="rethinking" label="Syntax Change">
+    Changed GraphQL syntax to JSON for its universality 📦
+    Here's what it looked like (approximately):
+    ```json
+    {
+        "meta": {
+            "request_goal": "Get character data",
+            "agent_name": "Gemini",
+            "request_method": "select"
+        },
+        "query_block": {
+            "file_path": {
+                "folder_name": "Characters",
+                "file_name": "Kowalski, the bloody reaper"
+            },
+            "sections_to_retrieve": [
+                {
+                    "YAML": {
+                        "name": "get_text"
+                    }
+                },
+                {
+                    "Bio": {
+                        "Character": "get_text"
+                    }
+                },
+                {
+                    "Abilities": {
+                        "list_elements": [1, 3]
+                    }
+                }
+            ]
+        }
+    }
+    ```
+  </TabItem>
+  <TabItem value="rethinking2" label="Syntax Change 2">
+    Changed JSON syntax to YAML for a more concise look: it's less bulky while maintaining functionality ✨
+    Here's what it looked like (approximately):
+    ```yaml
+    meta:
+        request_goal: Get character data
+        agent_name: Gemini
+        request_method: select
+    
+    query_block:
+        file_path:
+            folder_name: Characters
+            file_name: Kowalski, the bloody reaper
+        
+        sections_to_retrieve:
+            - YAML:
+                name: get_text
+            - Bio:
+                Character: get_text
+            - Abilities:
+                list_elements: [1, 3]
+    ```
+  </TabItem>
+  <TabItem value="return" label="Complete Replacement 🚀">
+    From something vaguely resembling GraphQL (if you squint hard 🙈) I came to SQL.
+    :::info What it was before
+    The agent specified the full path to the required location, from the root to the text in some nested heading.
+    :::
+    Now it's a maximally SQL-like syntax: instead of specifying paths, simply listing headings to extract text from.
+
+    Simply put, the schema was simplified to the minimum and now matches the key idea of the project ✅
+    
+    Here's what it looks like now:
+    ```sql
+    -- Get text from two character sections 👤
+    SELECT text
+    FROM "Описание", "История"
+    FILE "Персонажи/character";
+    
+    -- Get first 3 events with fields 📅
+    SELECT title, tags, text
+    FROM "События"
+    FILE "События/events"
+    LIMIT 3;
+    
+    -- Get items with "черный ворон" tag and hunger state 🦅
+    SELECT items
+    FROM "События"
+    FILE "События/events"
+    WHERE tags INCLUDE "черный ворон"
+      AND state INCLUDE "голод > 50";
+    ```
+  </TabItem>
+</Tabs>
