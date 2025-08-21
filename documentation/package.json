@@ -27,6 +27,11 @@
     "@docusaurus/types": "3.8.1",
     "docusaurus": "^1.14.7"
   },
+  "license": "(MIT OR BSL-1.1)",
+  "author": {
+    "name": "Nicolas",
+    "email": "nerdsinc42@gmail.com"
+  },
   "browserslist": {
     "production": [
       ">0.5%",

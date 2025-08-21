@@ -3,9 +3,10 @@ title: "Welcome"
 ---
 # Welcome to Norchevsky Project
 
-[![License: BSL 1.1](https://img.shields.io/badge/License-BSL%201.1-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-0.0.1-brightgreen.svg)]
-[![Status](https://img.shields.io/badge/status-pre_alpha-red.svg)]
+[![BSL License](https://img.shields.io/badge/License-BSL_1.1-blue.svg)](LICENSE-BSL)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE-MIT)
+[![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)](https://github.com/teta42/Norchevsky/releases)
+[![Status](https://img.shields.io/badge/Status-Pre_Alpha-red.svg)](https://github.com/teta42/Norchevsky)
 
 ## About the Project
 
@@ -137,11 +138,20 @@ knowing nothing, I dive into the depths - and learn on the go. _Sometimes scary_
 
 ## License
 
-This project is licensed under the **Business Source License 1.1 (BSL)**.
+This project uses dual licensing:
 
-- ✅ Free for personal, educational and non-commercial use.  
-- ❌ Commercial use and monetization are prohibited without a paid license or explicit permission.
+- **Business Source License (BSL) 1.1** - for commercial use
+- **MIT License** - for non-commercial use (personal, educational, open-source projects)
 
-The license will automatically convert to [MIT/Apache 2.0] license on **August 4, 2030**.
+You may choose either license depending on your use case.
+
+### BSL 1.1 Terms
+- ✅ Free for non-commercial use
+- ❌ Commercial use requires purchasing a license
+
+The BSL license provides commercial protection while allowing free non-commercial use.
+
+### MIT Terms
+Permission is granted to freely use, copy, modify, and distribute the software under the condition that the copyright notice is preserved.
 
 For commercial licensing inquiries, contact: nerdsinc42@gmail.com

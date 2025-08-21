@@ -75,6 +75,12 @@ const config = {
         items: [
           { to: '/docs/intro', label: 'Документация', position: 'left' },
           { to: '/blog', label: 'Блог', position: 'left' },
+          {
+            type: 'doc',
+            docId: 'legal/licensing',
+            position: 'right',
+            label: 'Licenses'
+          },
           { href: 'https://github.com/teta42/Norchevsky', label: 'GitHub', position: 'right' },
           {
             type: 'localeDropdown',

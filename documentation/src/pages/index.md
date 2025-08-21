@@ -3,9 +3,10 @@ title: "Добро пожаловать"
 ---
 # Добро пожаловать в проект Норчевский
 
-[![License: BSL 1.1](https://img.shields.io/badge/License-BSL%201.1-blue.svg)](LICENSE)
-[![Version](https://img.shields.io/badge/version-0.0.1-brightgreen.svg)]
-[![Status](https://img.shields.io/badge/status-pre_alpha-red.svg)]
+[![BSL License](https://img.shields.io/badge/License-BSL_1.1-blue.svg)](LICENSE-BSL)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE-MIT)
+[![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)](https://github.com/teta42/Norchevsky/releases)
+[![Status](https://img.shields.io/badge/Status-Pre_Alpha-red.svg)](https://github.com/teta42/Norchevsky)
 
 ## О проекте
 
@@ -140,11 +141,20 @@ title: "Добро пожаловать"
 
 ## Лицензия
 
-Этот проект лицензирован по **Business Source License 1.1 (BSL)**.
+Этот проект использует двойное лицензирование:
 
-- ✅ Бесплатно для личного, образовательного и некоммерческого использования.  
-- ❌ Коммерческое использование и монетизация запрещены без платной лицензии или явного разрешения.
+- **Business Source License (BSL) 1.1** - для коммерческого использования
+- **MIT License** - для некоммерческого использования (личное, образовательное, open-source проекты)
 
-Лицензия будет автоматически преобразована в лицензию [MIT/Apache 2.0] **4 августа 2030 г.**.
+Вы можете выбрать одну из двух лицензий в зависимости от вашего случая использования.
+
+### Условия BSL 1.1
+- ✅ Бесплатно для некоммерческого использования
+- ❌ Коммерческое использование требует приобретения лицензии
+
+Лицензия BSL обеспечивает коммерческую защиту при бесплатном некоммерческом использовании.
+
+### Условия MIT
+Разрешается свободное использование, копирование, изменение и распространение программного обеспечения при сохранении уведомления об авторских правах.
 
 По вопросам коммерческого лицензирования обращайтесь по адресу: nerdsinc42@gmail.com
