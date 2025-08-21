@@ -1,0 +1,55 @@
+---
+slug: metamorphosis-dsl
+title: 🌀 The Query Language Has Radically Changed
+authors: [Nicolas]
+tags: [story, idea]
+---
+
+Recently, my [DSL](/blog/about-my-dsl) has undergone several changes: it was renamed, its syntax was modified, and eventually it disappeared entirely.
+
+<!-- truncate -->
+
+:::info 🔄 Name Change
+[After the latest updates](/blog/yql), the DSL was renamed to:
+
+**NorQL** - *Norchevsky Query Language*
+
+This ensures the name is associated with the project rather than just a file format.
+:::
+
+But yesterday, the DSL was completely retired, unable to compete with the new concept of agent-database interaction.
+
+---
+
+## 📚 NFL - Norchevsky's Functional Library
+Instead of a full DSL, there will now be a library of functions that agents can call.
+
+These functions are similar to tools from the Python LangChain library.
+
+The functions are divided into 3 categories:
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="1" label="Low-Level" default>
+    Provide direct access to database files.
+    :::note For example
+    - Retrieving subsections
+    - Reading section text
+    - Updating/adding text or sections
+    :::
+    Direct work with YAML files.
+  </TabItem>
+  <TabItem value="2" label="High-Level">
+    Work with multiple YAML files:
+    - Data filtering
+    - Querying specific data (e.g., schemas of multiple files)
+  </TabItem>
+  <TabItem value="3" label="🚀 Hyper-Functions">
+    Combine the functionality of multiple high-level functions.
+    :::note Advantage
+    Instead of creating multiple functions with unique names and arguments, a single function was developed that can perform their tasks when provided with appropriate arguments.
+    :::
+  </TabItem>
+</Tabs>
