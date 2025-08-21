@@ -2,11 +2,41 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://teta42.github.io/Norchevsky/en/blog</id>
     <title>Norchevsky Blog</title>
-    <updated>2025-08-14T00:00:00.000Z</updated>
+    <updated>2025-08-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://teta42.github.io/Norchevsky/en/blog"/>
     <subtitle>Norchevsky Blog</subtitle>
     <icon>https://teta42.github.io/Norchevsky/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🌀 The Query Language Has Radically Changed]]></title>
+        <id>https://teta42.github.io/Norchevsky/en/blog/metamorphosis-dsl</id>
+        <link href="https://teta42.github.io/Norchevsky/en/blog/metamorphosis-dsl"/>
+        <updated>2025-08-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Recently, my DSL has undergone several changes: it was renamed, its syntax was modified, and eventually it disappeared entirely.]]></summary>
+        <content type="html"><![CDATA[<p>Recently, my <a href="https://teta42.github.io/Norchevsky/en/blog/about-my-dsl">DSL</a> has undergone several changes: it was renamed, its syntax was modified, and eventually it disappeared entirely.</p>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>🔄 Name Change</div><div class="admonitionContent_BuS1"><p><a href="https://teta42.github.io/Norchevsky/en/blog/yql">After the latest updates</a>, the DSL was renamed to:</p><p><strong>NorQL</strong> - <em>Norchevsky Query Language</em></p><p>This ensures the name is associated with the project rather than just a file format.</p></div></div>
+<p>But yesterday, the DSL was completely retired, unable to compete with the new concept of agent-database interaction.</p>
+<hr>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="-nfl---norchevskys-functional-library">📚 NFL - Norchevsky's Functional Library<a href="https://teta42.github.io/Norchevsky/en/blog/metamorphosis-dsl#-nfl---norchevskys-functional-library" class="hash-link" aria-label="Direct link to 📚 NFL - Norchevsky's Functional Library" title="Direct link to 📚 NFL - Norchevsky's Functional Library">​</a></h2>
+<p>Instead of a full DSL, there will now be a library of functions that agents can call.</p>
+<p>These functions are similar to tools from the Python LangChain library.</p>
+<p>The functions are divided into 3 categories:</p>
+<!-- -->
+<div class="tabs-container tabList__CuJ"><ul role="tablist" aria-orientation="horizontal" class="tabs"><li role="tab" tabindex="0" aria-selected="true" class="tabs__item tabItem_LNqP tabs__item--active">Low-Level</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">High-Level</li><li role="tab" tabindex="-1" aria-selected="false" class="tabs__item tabItem_LNqP">🚀 Hyper-Functions</li></ul><div class="margin-top--md"><div role="tabpanel" class="tabItem_Ymn6"><p>Provide direct access to database files.</p><div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>For example</div><div class="admonitionContent_BuS1"><ul>
+<li>Retrieving subsections</li>
+<li>Reading section text</li>
+<li>Updating/adding text or sections</li>
+</ul></div></div><p>Direct work with YAML files.</p></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><p>Work with multiple YAML files:</p><ul>
+<li>Data filtering</li>
+<li>Querying specific data (e.g., schemas of multiple files)</li>
+</ul></div><div role="tabpanel" class="tabItem_Ymn6" hidden=""><p>Combine the functionality of multiple high-level functions.</p><div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>Advantage</div><div class="admonitionContent_BuS1"><p>Instead of creating multiple functions with unique names and arguments, a single function was developed that can perform their tasks when provided with appropriate arguments.</p></div></div></div></div></div>]]></content>
+        <author>
+            <name>Nicolas Tetha</name>
+            <uri>https://t.me/Petaurka</uri>
+        </author>
+        <category label="Story" term="Story"/>
+        <category label="Idea" term="Idea"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Database Migration from Markdown to YAML]]></title>
         <id>https://teta42.github.io/Norchevsky/en/blog/DB-to-yaml</id>
