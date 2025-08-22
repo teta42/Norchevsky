@@ -3,10 +3,10 @@ title: "Добро пожаловать"
 ---
 # Добро пожаловать в проект Норчевский
 
-[![BSL License](https://img.shields.io/badge/License-BSL_1.1-blue.svg)](LICENSE-BSL)
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE-MIT)
-[![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)](https://github.com/teta42/Norchevsky/releases)
-[![Status](https://img.shields.io/badge/Status-Pre_Alpha-red.svg)](https://github.com/teta42/Norchevsky)
+![BSL License](https://img.shields.io/badge/License-BSL_1.1-blue.svg)
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Version](https://img.shields.io/badge/Version-0.0.1-green.svg)
+![Status](https://img.shields.io/badge/Status-Pre_Alpha-red.svg)
 
 ## О проекте
 
