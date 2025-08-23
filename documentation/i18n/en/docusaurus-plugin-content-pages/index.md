@@ -81,14 +81,6 @@ This is the project's strength:
 **customizable, intelligent, and collaborative approach to narrative**,  
 where you are the chief architect, and Norchevsky is your best assistant.
 
-## Project Architecture
-
-![Norchevsky's scheme](./assets/scheme_norchevsky_en.png)
-
-:::tip Yes, the diagram is approximate
-Unfortunately, it will be impossible to describe everything in one diagram, so I will create a bunch of smaller diagrams.
-:::
-
 ## Background
 
 :::info It All Started With a Simple Question:

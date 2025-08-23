@@ -1,5 +1,5 @@
 ---
-title: "Dual Licensing"
+title: Dual Licensing
 ---
 
 # Norchevsky Project Licensing
