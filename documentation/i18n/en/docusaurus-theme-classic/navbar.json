@@ -9,11 +9,11 @@
   },
   "item.label.Документация": {
     "message": "Documentation",
-    "description": "Navbar item with label Documentation"
+    "description": "Navbar item with label Документация"
   },
   "item.label.Блог": {
     "message": "Blog",
-    "description": "Navbar item with label Blog"
+    "description": "Navbar item with label Блог"
   },
   "item.label.GitHub": {
     "message": "GitHub",
@@ -26,5 +26,9 @@
   "locale.English": {
     "message": "English",
     "description": "The label for English language in the locale dropdown"
+  },
+  "item.label.Licenses": {
+    "message": "Licenses",
+    "description": "Navbar item with label Licenses"
   }
 }

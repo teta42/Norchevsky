@@ -2,5 +2,9 @@
   "version.label": {
     "message": "Next",
     "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Юридическая информация": {
+    "message": "Legal",
+    "description": "The label for category Legal in sidebar tutorialSidebar"
   }
 }
