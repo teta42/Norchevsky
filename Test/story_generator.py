@@ -113,8 +113,8 @@ def process_story_chain(user_query: str, config_path: str = "config.yaml") -> st
         print(f"\n{'='*50}")
         print(f"### Этап: {stage_name}")
         print(f"{'-'*50}")
-        print("Входные данные:")
-        print(str(input_data))
+        print("Входные данные (сокращённо):")
+        print(str(input_data)[:100] + ("..." if len(str(input_data)) > 100 else ""))
         print(f"\nВыходные данные:")
         print(str(output_data))
         print(f"\nВремя выполнения: {elapsed_sec:.3f} сек")
@@ -203,9 +203,7 @@ def process_story_chain(user_query: str, config_path: str = "config.yaml") -> st
         
         # Вычисляем общее время
         total_elapsed = time.perf_counter() - total_start_time
-        print(f"\n{'='*50}")
-        print(f"Общее время генерации: {total_elapsed:.3f} сек")
-        print(f"{'='*50}\n")
+        print(f"\nОбщее время генерации: {total_elapsed:.3f} сек")
         
         return story
     
