@@ -2,11 +2,33 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://teta42.github.io/Norchevsky/en/blog</id>
     <title>Norchevsky Blog</title>
-    <updated>2025-08-21T00:00:00.000Z</updated>
+    <updated>2025-08-25T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://teta42.github.io/Norchevsky/en/blog"/>
     <subtitle>Norchevsky Blog</subtitle>
     <icon>https://teta42.github.io/Norchevsky/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Change of architecture 🏗️]]></title>
+        <id>https://teta42.github.io/Norchevsky/en/blog/change-of-architecture</id>
+        <link href="https://teta42.github.io/Norchevsky/en/blog/change-of-architecture"/>
+        <updated>2025-08-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I made a major update! The architecture of my system changed 🚀 from monolithic synchronous to microservice parallel.]]></summary>
+        <content type="html"><![CDATA[<p><strong>I made a major update!</strong> The architecture of my system <strong>changed</strong> 🚀 from monolithic synchronous to microservice parallel.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="pros-of-the-changes-">Pros of the changes ✅<a href="https://teta42.github.io/Norchevsky/en/blog/change-of-architecture#pros-of-the-changes-" class="hash-link" aria-label="Direct link to Pros of the changes ✅" title="Direct link to Pros of the changes ✅">​</a></h2>
+<ol>
+<li><strong>The architecture became clearer</strong>: there is no one big "black box". 👏</li>
+<li><strong>The system became faster</strong>: processing time decreased from ~60 seconds to ~20 seconds. ⚡</li>
+<li><strong>The quality of responses remained the same</strong> - the amount of tasks performed remained the same. 🎯</li>
+</ol>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="cons-of-the-changes-️">Cons of the changes ⚠️<a href="https://teta42.github.io/Norchevsky/en/blog/change-of-architecture#cons-of-the-changes-%EF%B8%8F" class="hash-link" aria-label="Direct link to Cons of the changes ⚠️" title="Direct link to Cons of the changes ⚠️">​</a></h2>
+<p><strong>The cost of development increased</strong> due to the complexity of the distributed system. 💸</p>
+<p><strong>Overall, the switch was worth it</strong> 🌟 - the over 60% performance improvement is worth the extra development effort.</p>]]></content>
+        <author>
+            <name>Nicolas Tetha</name>
+            <uri>https://t.me/Petaurka</uri>
+        </author>
+        <category label="Story" term="Story"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[🌀 The Query Language Has Radically Changed]]></title>
         <id>https://teta42.github.io/Norchevsky/en/blog/metamorphosis-dsl</id>
