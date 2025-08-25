@@ -6,5 +6,25 @@
   "sidebar.tutorialSidebar.category.Юридическая информация": {
     "message": "Legal",
     "description": "The label for category Legal in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Агенты": {
+    "message": "Agents",
+    "description": "The label for category Agents in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.База Данных": {
+    "message": "Database",
+    "description": "The label for category Database in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Intro": {
+    "message": "Introduction",
+    "description": "The label for category Introduction in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Способ общения": {
+    "message": "Communication Method",
+    "description": "The label for category Communication Method in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.Веб интерфейс": {
+    "message": "Web Interface",
+    "description": "The label for category Web Interface in sidebar tutorialSidebar"
   }
 }

@@ -1,22 +1,20 @@
 ---
-title: Introduction
+title: Getting Started
 ---
 
 ## What now?
-The project is currently in the Katabasis stage, and is being passively-actively conceived.
+The project is currently in the Katabasis stage and is being passively and actively designed.
 
-You can read the [project terminology](/glossary)
+You can review the [project terminology](/glossary)
 
 ## About version names
-The current stage is divided into three sub-stages:
-1) **Lethe** _(Λήθη)_ — the chaos stage:
+The current stage is divided into three substages:
+1) **Lethe** _(Λήθη)_ — chaos stage:
 
-Just a set of supposed technologies and agents.
+    Just a set of proposed technologies and agents.
+2) **Sciai** _(Σκίαι)_ — shadow connections stage:
 
-2) **Skiai** _(Σκίαι )_ — the stage of shadow connections:
+    Combining agents into groups and test work.
+3) **Tartarus** _(Τάρταρος)_ — depths stage:
 
-Uniting agents into groups, and testing.
-
-3) **Tartar** _(Τάρταρος)_ — the stage of depths:
-
-A working minimal version, with a poor or absent interface for the average user
+    A working minimal version with a poor or missing interface for the average user

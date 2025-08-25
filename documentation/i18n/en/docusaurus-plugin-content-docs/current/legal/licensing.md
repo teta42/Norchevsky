@@ -9,7 +9,7 @@ The Norchevsky project uses a dual licensing model:
 - **Business Source License (BSL) 1.1** - for commercial use (perpetual)
 - **MIT License** - for non-commercial use (perpetual)
 
-## Choosing a License
+## License Choice
 
 You can choose one of two licenses depending on your use case:
 
@@ -26,11 +26,11 @@ BSL is a source-available license that:
 
 Key features of BSL:
 - Prohibits use in commercial products without a license
-- Requires disclosure of code modifications
+- Requires disclosure of source code modifications
 - Mandatory license attribution in all derivative works
 - Perpetual validity with a commercial license
 
-[Full BSL 1.1 Text](https://github.com/teta42/Norchevsky/blob/main/LICENSE-BSL.md)
+[Full text of BSL 1.1](https://github.com/teta42/Norchevsky/blob/main/LICENSE-BSL.md)
 
 ## MIT License Terms
 
@@ -48,7 +48,7 @@ This license is ideal for:
 - Open-source development
 - Research activities
 
-[Full MIT License Text](https://github.com/teta42/Norchevsky/blob/main/LICENSE-MIT.md)
+[Full text of MIT License](https://github.com/teta42/Norchevsky/blob/main/LICENSE-MIT.md)
 
 ## Frequently Asked Questions
 
@@ -56,18 +56,18 @@ This license is ideal for:
 Yes, for non-commercial use under the perpetual MIT license.
 
 ### Do I need to purchase a license for commercial use?
-Yes, commercial use requires purchasing a perpetual BSL license.
+Yes, commercial use in products requires purchasing a perpetual BSL license.
 
 ### How do I obtain a commercial license?
 Contact us at: nerdsinc42@gmail.com
 
 ## License Comparison
 
-| Feature                | BSL 1.1         | MIT             |
-|------------------------|-----------------|-----------------|
-| Commercial use         | Requires license| Prohibited      |
-| Validity period        | Perpetual       | Perpetual       |
-| Code modifications     | Allowed         | Allowed         |
-| Distribution           | With restrictions| Without restrictions |
-| Patents                | Not provided    | Not provided    |
-| Copyright              | Retained        | Retained        |
+| Feature                   | BSL 1.1          | MIT              |
+|---------------------------|------------------|------------------|
+| Commercial use            | Requires license | Prohibited       |
+| Validity period           | Perpetual        | Perpetual        |
+| Code modifications        | Allowed          | Allowed          |
+| Distribution              | With restrictions| Without restrictions |
+| Patents                   | Not provided     | Not provided     |
+| Copyright                 | Preserved        | Preserved        |
