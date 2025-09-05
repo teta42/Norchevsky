@@ -1,5 +1,5 @@
 ---
-title: About Agents
+title: About agents at the beginning
 ---
 
-empty
+[What is an agent](/glossary#agent)

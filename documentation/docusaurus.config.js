@@ -73,7 +73,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { to: '/docs/intro', label: 'Документация', position: 'left' },
+          { to: '/docs/Intro/intro', label: 'Документация', position: 'left' },
           { to: '/blog', label: 'Блог', position: 'left' },
           {
             type: 'doc',

@@ -3,9 +3,9 @@ slug: glossary
 title: "Project Terminology"
 ---
 
-# Terminology of the Norchevsky project
+# Terminology of the Norchevsky Project
 
-This page contains key terms used in the project. It serves as a single reference point for developers, scriptwriters, and players so that everyone understands the meaning of the concepts used.
+This page contains key terms of the project. It serves as a unified reference for developers, scriptwriters and players, so that everyone understands the meaning of key concepts and the role of system components.
 
 ---
 
@@ -14,92 +14,106 @@ This page contains key terms used in the project. It serves as a single referenc
 ### System
 **Type:** General Term
 
-**Definition:** The entire Norchevsky project as a single entity — [Software part](#software-part), [Intellectual part](#intellectual-part), and game logic.
+**Definition:** The Norchevsky Project as a single organism that combines the [Software Part](#software-part), [Intellectual Part](#intellectual-part) and game logic.
 
 **Example:** "The system processes game events and stores the results in the database."
 
 ---
 
-### Software part
+### Software Part
 **Type:** General Term
 
-**Definition:** All elements of the project not related to AI and agents: engine, databases, maps, interface.
+**Definition:** All technical components of the project that are not related to AI: engine, databases, maps, interface and other tools.
 
 **Nickname:** "Norchevsky" (in the narrow sense).
 
 **Example:** "The software part calculates character movements and updates the map."
 
-**Related:** [Intellectual part](#intellectual-part).
-
-----
+---
 
 ### Intelligent part
 **Type:** General term
 
-**Definition:** All AI-based components, including [agents](#agent) that process data and manage the gameplay.
+**Definition:** A set of [agents](#agent) that perform all intellectual tasks: data processing, response generation, maintaining the integrity of the game world and developing the plot.
 
 **Nickname:** Agents.
 
 **Example:** "The intellectual part generates text descriptions of events and expands the plot."
 
-**Related:** [LLM](#LLM), [Agent](#agent).
+---
 
-----
+### Generation cycle
+**Type:** General term
 
-## Architectural Terms
+**Definition:** The process of a complete response to a user prompt: from its analysis to text generation, identifying key [abstractions](#abstraction) and writing them to the database. The central component of the cycle is the [local agent bed](#local-agent-bed).
+
+**Example:** "Each generation cycle begins with the analysis of the prompt and ends with the creation of abstractions for the database."
+
+---
+
+### Scene
+**Type:** General term
+
+**Definition:** The result of the generation cycle is a text block describing the current state of the game world and the consequences of the player's actions.
+
+**Example:** "After the player's request, the system generated a scene describing a village at the foot of the mountains."
+
+---
+
+## Architectural terms
 
 ### Component
 **Type:** Architecture
 
-**Definition:** A mandatory system unit without which the project would be impossible or very difficult to run.
+**Definition:** A key part of the system, without which the project's operation is impossible or significantly hampered.
 
-**Example:** "The Map component handles the positioning of objects in the world."
+**Example:** "The "Agent Person" component is responsible for dialogues with the player."
 
-**Related:** [Module](#module).
-
-----
+---
 
 ### Module
 **Type:** Architecture
 
-**Definition:** An additional system unit that extends functionality, but is not required for the system to run.
+**Definition:** An additional part of the system that extends functionality, but is not required for launch.
 
-**Example:** "The Combat Module adds tactical battles and advanced rules."
+**Example:** "The combat module adds tactical battles."
 
-**Related:** [Component](#component).
+---
 
-----
+### Local agent bed
+**Type:** Architecture
 
-### LLM
-**Type:** Architecture (AI)
+**Definition:** The central group of agents that is responsible for the current state of the game world: processes prompts, analyzes scene objects, forms responses and abstractions. The local bed is focused on the "present" - the immediate actions of the player and their consequences.
 
-**Definition:** The central AI component that takes input from the [intellectual part](#intellectual-part), and then transforms it into structured and stylistically formatted text.
+**Example:** "The local agent bed analyzes the player's request and forms a scene, updating the database."
 
-**Example:** "LLM transforms a set of facts about a location into a coherent description for the player."
+---
 
-**Linked:** [Agent](#agent), [Intellectual part](#intellectual-part).
+### Global Agent Bed
+**Type:** Architecture
 
-----
+**Definition:** A group of agents that builds and develops long-term elements of the game world: major storylines, future locations, global changes to the state of the world. The Global Bed thinks about the "medium and distant future."
+
+**Example:** "The Global Agent Bed prepared the structure of the future story arc."
+
+---
 
 ### Agent
 **Type:** Architecture (AI)
 
-**Definition:** An AI component that performs a strictly defined intellectual task.
+**Definition:** A highly specialized AI component that performs one intellectual function: text generation, data analysis, updating the object database, etc. All agents together make up the [Intellectual Part](#intellectual-part).
 
 **Example:** "The Chronicler Agent analyzes events and adds them to the history of the world."
 
-**Related to:** [LLM](#LLM), [Intellectual part](#intellectual-part).
+---
 
-----
-
-## Game and logical terms
+## Game and Logical Terms
 
 ### Abstraction
-
 **Type:** Game logic
 
-**Definition:** A mechanism that allows you to extract parts of text (descriptions of objects, characters, locations, etc.), save them in a database, link them to other entities and call them when needed. It is used so that the AI can recognize recurring objects and use their previously defined descriptions, maintaining the integrity of the game world.
+**Definition:** A key unit of data extracted from the scene text (objects, characters, locations, events). Abstractions are stored in the database, which allows the system to use them in the future and maintain the integrity of the game world.
 
-**Example:** "The text of the house description contains a phrase about a mug. Abstraction extracts the description of the mug, saves it in the database and links it to other objects. When the mug appears again, the AI uses the same description, rather than inventing a new one." **Linked:** [Agent](#agent), [Intellectual part](#intellectual-part)
+**Example:** "If a mug is found in the description, the system selects it as an abstraction, saves the description and uses it the next time the mug appears in the game."
 
-----
+---

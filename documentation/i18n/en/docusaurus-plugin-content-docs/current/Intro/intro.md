@@ -1,20 +1,27 @@
 ---
-title: Getting Started
+title: Start
 ---
 
 ## What now?
-The project is currently in the Katabasis stage and is being passively and actively designed.
 
-You can review the [project terminology](/glossary)
+The project is at the **very start** of development and is currently being formed passively-actively, acquiring ideas and concepts.
 
-## About version names
-The current stage is divided into three substages:
-1) **Lethe** _(Λήθη)_ — chaos stage:
+You can look into the [project terminology](/glossary).
 
-    Just a set of proposed technologies and agents.
-2) **Sciai** _(Σκίαι)_ — shadow connections stage:
+## About stages and version names
 
-    Combining agents into groups and test work.
-3) **Tartarus** _(Τάρταρος)_ — depths stage:
+The current stage is divided into three sub-stages:
 
-    A working minimal version with a poor or missing interface for the average user
+1. **TechDems**
+
+    A set of rough drafts and testing of key ideas.
+
+2. **Fragments**
+
+    Assembly and refinement of tech demos into a single whole.
+
+3. **Minimum Working Project**
+
+    A fully integrated and functioning system.
+
+---
